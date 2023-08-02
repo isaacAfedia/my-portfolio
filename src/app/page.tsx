@@ -56,7 +56,7 @@ export default function Home() {
         <section className="min-h-screen">
           <nav className="py-10 flex justify-between">
             <h1 className={`text-xl font-burtons ${textColorClass}`}>
-              Isaac's Portfolio
+              Isaac&apos;s Portfolio
             </h1>
             <ul className="flex items-center">
               {darkMode ? (
