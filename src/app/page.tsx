@@ -83,7 +83,7 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className="text-center p-10">
+          <div className="text-center p-2">
             <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 overflow-hidden">
               <Image src={deved} alt="" layout="fill" objectFit="cover" />
             </div>
@@ -111,7 +111,7 @@ export default function Home() {
               download="Isaac-Afedia-Resume.pdf"
             >
               Download Resume
-              <HiOutlineDownload className="inline-block ml-2 text-2xl md:inline " />
+              <HiOutlineDownload className="inline-block text-2xl md:inline " />
             </a>
             <div className="text-2xl flex justify-center gap-5 py-3 mt-4">
               <a href="https://www.linkedin.com/in/isaac-afedia-/">
@@ -129,12 +129,12 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section className="min-w-screen-lg">
           <div className="flex justify-center">
             <div
               className={`${
-                darkMode ? "bg-gray-700" : "bg-gray-300"
-              } p-2 rounded-lg shadow flex gap-2`}
+                darkMode ? "bg-gray-70max-w-lg mx-auto0" : "bg-gray-300"
+              } p-2 rounded-lg  shadow flex gap-2`}
             >
               <button
                 onClick={() => handleTabClick("projects")}
