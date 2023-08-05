@@ -83,7 +83,7 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className="text-center p-2">
+          <div className="text-center ">
             <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 overflow-hidden">
               <Image src={deved} alt="" layout="fill" objectFit="cover" />
             </div>
@@ -105,27 +105,27 @@ export default function Home() {
               statistics, and data visualization. Effective communicator,
               collaborating cross-functionally to optimize performance.
             </p>
-          </div>
-          <a
-            className={`bg-teal-500 text-white text-xl px-6 py-3 rounded-md text-center ${textColorClass}`}
-            href="/Isaac-Afedia-Resume.pdf"
-            download="Isaac-Afedia-Resume.pdf"
-          >
-            Download CV
-            <HiOutlineDownload className="inline-block text-2xl md:inline " />
-          </a>
-          <div className="text-2xl flex justify-center gap-5 py-3 mt-4">
-            <a href="https://www.linkedin.com/in/isaac-afedia-/">
-              <AiFillLinkedin className="text-blue-800" />
+            <a
+              className={`bg-teal-500 text-white text-xl px-6 py-3 rounded-md ${textColorClass}`}
+              href="/Isaac-Afedia-Resume.pdf"
+              download="Isaac-Afedia-Resume.pdf"
+            >
+              Download CV
+              <HiOutlineDownload className="inline-block text-2xl md:inline " />
             </a>
-            <a href="https://github.com/isaacAfedia">
-              <AiFillGithub
-                className={`text-black-800 ${darkMode ? "text-white" : ""}`}
-              />
-            </a>
-            <a href="https://api.whatsapp.com/send?phone=14373311205&text=Hello,%20more%20information!">
-              <AiOutlineWhatsApp className="text-teal-500" />
-            </a>
+            <div className="text-2xl flex justify-center gap-5 py-3 mt-4">
+              <a href="https://www.linkedin.com/in/isaac-afedia-/">
+                <AiFillLinkedin className="text-blue-800" />
+              </a>
+              <a href="https://github.com/isaacAfedia">
+                <AiFillGithub
+                  className={`text-black-800 ${darkMode ? "text-white" : ""}`}
+                />
+              </a>
+              <a href="https://api.whatsapp.com/send?phone=14373311205&text=Hello,%20more%20information!">
+                <AiOutlineWhatsApp className="text-teal-500" />
+              </a>
+            </div>
           </div>
         </section>
 
