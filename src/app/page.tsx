@@ -83,7 +83,7 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className="text-center p-2">
+          <div className="text-center">
             <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 overflow-hidden">
               <Image src={deved} alt="" layout="fill" objectFit="cover" />
             </div>
@@ -110,7 +110,7 @@ export default function Home() {
               href="/Isaac-Afedia-Resume.pdf"
               download="Isaac-Afedia-Resume.pdf"
             >
-              Download Resume
+              Download CV
               <HiOutlineDownload className="inline-block text-2xl md:inline " />
             </a>
             <div className="text-2xl flex justify-center gap-5 py-3 mt-4">
