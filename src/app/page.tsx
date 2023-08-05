@@ -111,7 +111,7 @@ export default function Home() {
               download="Isaac-Afedia-Resume.pdf"
             >
               Download Resume
-              <HiOutlineDownload className="inline-block ml-2 text-2xl " />
+              <HiOutlineDownload className="inline-block ml-2 text-2xl md:inline " />
             </a>
             <div className="text-2xl flex justify-center gap-5 py-3 mt-4">
               <a href="https://www.linkedin.com/in/isaac-afedia-/">
