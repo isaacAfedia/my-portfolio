@@ -152,7 +152,7 @@ export default function Home() {
               </button>
               <button
                 onClick={() => handleTabClick("proficiencies")}
-                className={`px-8 py-4 rounded-md sm:px-6 sm:py-2 md:py-3 lg:py-4 ${
+                className={`px-8 py-4 rounded-md sm:px-6 sm:py-2 md:py-4 lg:py-4 ${
                   activeTab === "proficiencies"
                     ? `bg-teal-500 ${textColorClass}`
                     : `${
