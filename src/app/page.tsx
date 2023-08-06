@@ -9,7 +9,6 @@ import {
   AiOutlineWhatsApp,
 } from "react-icons/ai";
 import { HiOutlineDownload } from "react-icons/hi";
-import { AiOutlineLink } from "react-icons/ai";
 import deved from "../app/assets/port.jpg";
 import python from "../app/assets/python-svgrepo-com.svg";
 import java from "../app/assets/java-svgrepo-com.svg";
@@ -49,7 +48,7 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <main
-        className={`bg-white px-10 md:px-20 lg:px-40 ${
+        className={`bg-white px-5 md:px-8 lg:px-20 xl:px-40 ${
           darkMode ? "dark:bg-gray-900" : ""
         }`}
       >
@@ -73,7 +72,7 @@ export default function Home() {
 
               <li>
                 <a
-                  className={`bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-1 py-2 rounded-md ml-4 ${textColorClass}`}
+                  className={`bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-1 py-2 rounded-md ml-2 ${textColorClass}`}
                   href="/Isaac-Afedia-Resume.pdf"
                   download="Isaac-Afedia-Resume.pdf"
                 >
@@ -129,16 +128,16 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="">
-          <div className="flex justify-center">
+        <section className="md:w-85 lg:w-70 mx-auto">
+          <div className="flex justify-center ">
             <div
               className={`${
-                darkMode ? "bg-gray-70max-w-lg mx-auto0" : "bg-gray-300"
-              } p-2 rounded-lg  shadow flex gap-2`}
+                darkMode ? "bg-gray-700" : "bg-gray-300"
+              } text-center p-2 rounded-lg  shadow flex gap-2 sm:p-1 sm:gap-1`}
             >
               <button
                 onClick={() => handleTabClick("projects")}
-                className={`px-8 py-4 rounded-md ${
+                className={`px-8 py-4 rounded-md sm:px-4 sm:py-2 ${
                   activeTab === "projects"
                     ? `bg-teal-500 ${textColorClass}`
                     : `${
@@ -152,7 +151,7 @@ export default function Home() {
               </button>
               <button
                 onClick={() => handleTabClick("proficiencies")}
-                className={`px-8 py-4 rounded-md ${
+                className={`px-8 py-4 rounded-md sm:px-4 sm:py-2 ${
                   activeTab === "proficiencies"
                     ? `bg-teal-500 ${textColorClass}`
                     : `${
@@ -166,7 +165,7 @@ export default function Home() {
               </button>
               <button
                 onClick={() => handleTabClick("education")}
-                className={`px-8 py-4 rounded-md ${
+                className={`px-8 py-4 rounded-md sm:px-4 sm:py-2 ${
                   activeTab === "education"
                     ? `bg-teal-500 ${textColorClass}`
                     : `${
@@ -187,7 +186,7 @@ export default function Home() {
                   <div
                     className={`${
                       darkMode ? "bg-gray-800" : "bg-gray-100"
-                    } shadow-lg mx-4 my-4 rounded-lg `}
+                    } shadow-lg my-4 rounded-lg `}
                   >
                     <div className="flex items-center flex-col p-4">
                       <div>
@@ -200,7 +199,7 @@ export default function Home() {
                       </div>
                       <div
                         style={{
-                          width: "400px",
+                          width: "100%",
                           height: "200px",
                           display: "flex",
                           justifyContent: "center",
@@ -245,7 +244,7 @@ export default function Home() {
                       </div>
                       <div
                         style={{
-                          width: "400px",
+                          width: "100%",
                           height: "200px",
                           display: "flex",
                           justifyContent: "center",
@@ -292,7 +291,7 @@ export default function Home() {
                       </div>
                       <div
                         style={{
-                          width: "400px",
+                          width: "100%",
                           height: "200px",
                           display: "flex",
                           justifyContent: "center",
@@ -337,7 +336,7 @@ export default function Home() {
                       </div>
                       <div
                         style={{
-                          width: "400px",
+                          width: "100%",
                           height: "200px",
                           display: "flex",
                           justifyContent: "center",
@@ -604,6 +603,7 @@ export default function Home() {
             <div className="content-right"></div>
           </div>
         </section>
+
         <footer className={`text-center py-4 `}>
           <p className={`${textColorClass}`}>
             &#169; Isaac Afedia. All rights reserved.
