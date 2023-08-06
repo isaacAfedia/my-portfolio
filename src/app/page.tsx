@@ -31,6 +31,7 @@ import aau from "../app/assets/aau.jpeg";
 import creditScore from "../app/assets/credit_score.png";
 import restaurant from "../app/assets/Analytics.jpg";
 import breastCancer from "../app/assets/BCP.png";
+import pyspark from "../app/assets/PySpark-logo-1.jpeg";
 import newP from "../app/assets/pexels-towfiqu-barbhuiya-14547032.jpg";
 
 export default function Home() {
@@ -477,7 +478,7 @@ export default function Home() {
                       className="mr-2"
                     />
                     <div>
-                      <h3 className="text-lg font-bold">MS SQL server</h3>
+                      <h3 className="text-lg font-bold">MS SQL</h3>
                     </div>
                   </div>
                   <div className="flex items-center mb-2">
@@ -505,7 +506,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="skill_name">
+                <div className="mt-4">
                   <h1 className="text-2xl text-left text-teal-500 font-bold mb-8">
                     Analytics
                   </h1>
@@ -520,7 +521,7 @@ export default function Home() {
                       <h3 className="text-lg font-bold">Tableau</h3>
                     </div>
                   </div>
-                  <div className="flex items-center mb-4">
+                  <div className="flex items-center mb-2">
                     <Image
                       src={excel}
                       alt=""
@@ -562,6 +563,17 @@ export default function Home() {
                     />
                     <div>
                       <h3 className="text-lg font-bold">Linux</h3>
+                    </div>
+                  </div>
+                  <div className="flex items-center">
+                    <Image
+                      src={pyspark}
+                      alt=""
+                      style={{ maxWidth: "2rem" }}
+                      className="mr-2"
+                    />
+                    <div>
+                      <h3 className="text-lg font-bold">Pyspark</h3>
                     </div>
                   </div>
                 </div>
