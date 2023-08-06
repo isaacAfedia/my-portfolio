@@ -128,16 +128,16 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="md:w-85 lg:w-70 mx-auto">
+        <section>
           <div className="flex justify-center ">
             <div
               className={`${
                 darkMode ? "bg-gray-700" : "bg-gray-300"
-              } text-center  rounded-lg shadow flex gap-4 sm:p-1 p-4 sm:gap-1`}
+              } text-center p-2 rounded-lg shadow flex gap-2 sm:p-1 sm:gap-1 md:p-2 md:gap-2 lg:p-2 lg:gap-2`}
             >
               <button
                 onClick={() => handleTabClick("projects")}
-                className={`px-8 py-4 rounded-md sm:px-4 sm:py-4 ${
+                className={`px-8 py-4 rounded-md sm:px-6 sm:py-2 md:py-3 lg:py-4 ${
                   activeTab === "projects"
                     ? `bg-teal-500 ${textColorClass}`
                     : `${
@@ -151,7 +151,7 @@ export default function Home() {
               </button>
               <button
                 onClick={() => handleTabClick("proficiencies")}
-                className={`px-8 py-4 rounded-md sm:px-4 sm:py-2 ${
+                className={`px-8 py-4 rounded-md sm:px-6 sm:py-2 md:py-3 lg:py-4 ${
                   activeTab === "proficiencies"
                     ? `bg-teal-500 ${textColorClass}`
                     : `${
@@ -165,7 +165,7 @@ export default function Home() {
               </button>
               <button
                 onClick={() => handleTabClick("education")}
-                className={`px-8 py-4 rounded-md sm:px-4 sm:py-2 ${
+                className={`px-8 py-4 rounded-md sm:px-6 sm:py-2 md:py-3 lg:py-4 ${
                   activeTab === "education"
                     ? `bg-teal-500 ${textColorClass}`
                     : `${
@@ -369,10 +369,10 @@ export default function Home() {
             )}
             {activeTab === "proficiencies" && (
               <div
-                className={` flex justify-center items-center space-x-12  sm:space-x-2  ${textColorClass}`}
+                className={` flex justify-center items-center space-x-12 gap-4  ${textColorClass}`}
               >
                 <div className="skill_name">
-                  <h1 className="text-2xl sm:text-xl text-left text-teal-500 font-bold mb-10">
+                  <h1 className="text-2xl text-left text-teal-500 font-bold mb-10">
                     Programming
                   </h1>
                   <div className="flex items-center mb-6">
@@ -433,7 +433,7 @@ export default function Home() {
                 </div>
 
                 <div className="mt-4">
-                  <h1 className="text-2xl sm:text-xl  text-left text-teal-500 font-bold mb-8 ml-1">
+                  <h1 className="text-2xl text-left text-teal-500 font-bold mb-8 ">
                     Database
                   </h1>
                   <div className="flex items-center mt-2">
@@ -477,7 +477,7 @@ export default function Home() {
                       className="mr-2"
                     />
                     <div>
-                      <h3 className="text-lg font-bold">MS SQL </h3>
+                      <h3 className="text-lg font-bold">MS SQL server</h3>
                     </div>
                   </div>
                   <div className="flex items-center mb-2">
@@ -506,7 +506,7 @@ export default function Home() {
                 </div>
 
                 <div className="skill_name">
-                  <h1 className="text-2xl sm:text-xl text-left text-teal-500 font-bold mb-8">
+                  <h1 className="text-2xl text-left text-teal-500 font-bold mb-8">
                     Analytics
                   </h1>
                   <div className="flex items-center mb-4">
