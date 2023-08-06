@@ -133,11 +133,11 @@ export default function Home() {
             <div
               className={`${
                 darkMode ? "bg-gray-700" : "bg-gray-300"
-              } text-center p-2 rounded-lg  shadow flex gap-2 sm:p-1 sm:gap-1`}
+              } text-center  rounded-lg shadow flex gap-4 sm:p-1 p-4 sm:gap-1`}
             >
               <button
                 onClick={() => handleTabClick("projects")}
-                className={`px-8 py-4 rounded-md sm:px-4 sm:py-2 ${
+                className={`px-8 py-4 rounded-md sm:px-4 sm:py-4 ${
                   activeTab === "projects"
                     ? `bg-teal-500 ${textColorClass}`
                     : `${
