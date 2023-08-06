@@ -105,12 +105,12 @@ export default function Home() {
               collaborating cross-functionally to optimize performance.
             </p>
             <a
-              className={`bg-teal-500 text-white text-xl px-6 py-3 rounded-md ${textColorClass}`}
+              className={`bg-teal-500 text-white text-xl px-4 py-3 rounded-md ${textColorClass}`}
               href="/Isaac-Afedia-Resume.pdf"
               download="Isaac-Afedia-Resume.pdf"
             >
-              Download CV
-              <HiOutlineDownload className="inline-block text-2xl md:inline " />
+              Download Resume
+              <HiOutlineDownload className="inline-block text-2xl md:inline ml-1" />
             </a>
             <div className="text-2xl flex justify-center gap-5 py-3 mt-4">
               <a href="https://www.linkedin.com/in/isaac-afedia-/">
@@ -199,7 +199,7 @@ export default function Home() {
                       </div>
                       <div
                         style={{
-                          width: "100%",
+                          maxWidth: "400px",
                           height: "200px",
                           display: "flex",
                           justifyContent: "center",
@@ -220,7 +220,7 @@ export default function Home() {
                       <div className="mt-3">
                         <a
                           className={`bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-xl px-8 py-2 rounded-md mt-4 ${textColorClass}`}
-                          href="https://github.com/isaacAfedia/Breast-Cancer-detection-Analysis"
+                          href="https://github.com/isaacAfedia/Restaurant-Chain-Analysis"
                         >
                           View Project
                         </a>
@@ -244,7 +244,7 @@ export default function Home() {
                       </div>
                       <div
                         style={{
-                          width: "100%",
+                          maxWidth: "400px",
                           height: "200px",
                           display: "flex",
                           justifyContent: "center",
@@ -291,7 +291,7 @@ export default function Home() {
                       </div>
                       <div
                         style={{
-                          width: "100%",
+                          maxWidth: "400px",
                           height: "200px",
                           display: "flex",
                           justifyContent: "center",
@@ -336,7 +336,7 @@ export default function Home() {
                       </div>
                       <div
                         style={{
-                          width: "100%",
+                          maxWidth: "400px",
                           height: "200px",
                           display: "flex",
                           justifyContent: "center",
@@ -369,10 +369,10 @@ export default function Home() {
             )}
             {activeTab === "proficiencies" && (
               <div
-                className={` flex justify-center items-center space-x-12 gap-4  ${textColorClass}`}
+                className={` flex justify-center items-center space-x-12  sm:space-x-2  ${textColorClass}`}
               >
                 <div className="skill_name">
-                  <h1 className="text-2xl text-left text-teal-500 font-bold mb-10">
+                  <h1 className="text-2xl sm:text-xl text-left text-teal-500 font-bold mb-10">
                     Programming
                   </h1>
                   <div className="flex items-center mb-6">
@@ -433,7 +433,7 @@ export default function Home() {
                 </div>
 
                 <div className="mt-4">
-                  <h1 className="text-2xl text-left text-teal-500 font-bold mb-8 ">
+                  <h1 className="text-2xl sm:text-xl  text-left text-teal-500 font-bold mb-8 ml-1">
                     Database
                   </h1>
                   <div className="flex items-center mt-2">
@@ -477,7 +477,7 @@ export default function Home() {
                       className="mr-2"
                     />
                     <div>
-                      <h3 className="text-lg font-bold">MS SQL server</h3>
+                      <h3 className="text-lg font-bold">MS SQL </h3>
                     </div>
                   </div>
                   <div className="flex items-center mb-2">
@@ -506,7 +506,7 @@ export default function Home() {
                 </div>
 
                 <div className="skill_name">
-                  <h1 className="text-2xl text-left text-teal-500 font-bold mb-8">
+                  <h1 className="text-2xl sm:text-xl text-left text-teal-500 font-bold mb-8">
                     Analytics
                   </h1>
                   <div className="flex items-center mb-4">
