@@ -329,10 +329,10 @@ export default function Home() {
                     <div className="flex items-center flex-col p-4">
                       <div>
                         <a
-                          href="https://your-restaurant-link.com"
+                          href="https://github.com/isaacAfedia/Supermarket-Sales"
                           className={`text-2xl md:text-3xl font-burtons ${textColorClass} hover:text-teal-500`}
                         >
-                          Coming Soon
+                          Supermarket Sales
                         </a>
                       </div>
                       <div
@@ -358,7 +358,7 @@ export default function Home() {
                       <div className="mt-3">
                         <a
                           className={`bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-xl px-8 py-2 rounded-md mt-4 ${textColorClass}`}
-                          href="https://github.com/isaacAfedia/Restaurant-Chain-Analysis"
+                          href="https://github.com/isaacAfedia/Supermarket-Sales"
                         >
                           View Project
                         </a>
