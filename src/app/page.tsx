@@ -74,8 +74,8 @@ export default function Home() {
               <li>
                 <a
                   className={`bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-1 py-2 rounded-md ml-2 ${textColorClass}`}
-                  href="/Isaac-Afedia-Resume.pdf"
-                  download="Isaac-Afedia-Resume.pdf"
+                  href="/Isaac-Afedia_Resume.pdf"
+                  download="Isaac-Afedia_Resume.pdf"
                 >
                   Resume
                 </a>
@@ -107,8 +107,8 @@ export default function Home() {
             </p>
             <a
               className={`bg-teal-500 text-white text-xl px-4 py-3 rounded-md ${textColorClass}`}
-              href="/Isaac-Afedia-Resume.pdf"
-              download="Isaac-Afedia-Resume.pdf"
+              href="/Isaac-Afedia_Resume.pdf"
+              download="Isaac-Afedia_Resume.pdf"
             >
               Download Resume
               <HiOutlineDownload className="inline-block text-2xl md:inline ml-1" />
